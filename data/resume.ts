@@ -224,14 +224,9 @@ export const DATA = {
       icon: Icons.user
     },
     {
-      href: '/blog',
-      label: 'Blog',
+      href: '/writing',
+      label: 'Writing',
       icon: Icons.code
-    },
-    {
-      href: `mailto:hello@nehiljain.com`,
-      label: 'Contact',
-      icon: Icons.mail
     }
   ]
 };
