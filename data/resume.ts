@@ -36,7 +36,13 @@ export const DATA = {
   skills: [
     {
       type: 'AI and Machine Learning',
-      tools: ['RAG', 'Finetuning', 'Forecasting', 'MLOps']
+      tools: [
+        'Agentic Applications',
+        'RAG',
+        'Finetuning',
+        'Forecasting',
+        'MLOps'
+      ]
     },
     {
       type: 'Data Engineering and Infrastructure',
@@ -46,6 +52,7 @@ export const DATA = {
         'Dagster',
         'Airflow',
         'MLFlow',
+        'Snowflake',
         'Databricks',
         'Azure ML',
         'dbt'
