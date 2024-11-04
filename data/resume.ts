@@ -116,9 +116,9 @@ export const DATA = {
   ],
   projects: [
     {
-      industry: 'Developer Tools',
+      industry: 'DevTools',
       title: 'ProoferX - AI Documentation Validator',
-      status: 'past',
+      status: 'current',
       description:
         'Won Code Interpreter 2.0 Hackathon by building an AI tool that tests code in technical guides to make sure they actually work.',
       impact:
@@ -127,8 +127,8 @@ export const DATA = {
       technologies: ['CrewAI', 'E2B Sandbox', 'Fireworks AI', 'LangChain']
     },
     {
-      industry: 'Developer Tools',
-      title: 'LazyPM - AI Release Notes Generator',
+      industry: 'DevTools',
+      title: 'LazyPMs - AI Release Notes Generator',
       status: 'past',
       description:
         'Won LangChain Factory Hackathon by building an agentic system that automates writing and tailoring software release notes for different stakeholders using a multi-agent architecture.',
@@ -138,7 +138,7 @@ export const DATA = {
       technologies: ['Langgraph', 'LangChain', 'Fireworks AI', 'GitHub API']
     },
     {
-      industry: 'Developer Tools',
+      industry: 'Events',
       title: 'KinConnect - AI Hackathon Team Matcher',
       status: 'past',
       description:
@@ -259,14 +259,19 @@ export const DATA = {
       icon: Icons.logo
     },
     {
-      href: '/about',
-      label: 'About',
+      href: '/projects',
+      label: 'Projects',
+      icon: Icons.code
+    },
+    {
+      href: '/cv',
+      label: 'CV',
       icon: Icons.user
     },
     {
       href: '/writing',
       label: 'Writing',
-      icon: Icons.code
+      icon: Icons.pen
     }
   ]
 };
