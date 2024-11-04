@@ -3,13 +3,13 @@ import { Icons } from '@/components/icons';
 export const DATA = {
   name: 'Nehil Jain',
   initials: 'NJ',
-  org: 'Arallon AI',
+  org: 'Demo Drive',
   title: 'Applied AI Consultant',
   currentFocus: 'Building AI-powered products',
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
   description:
-    "Hey! I'm Nehil Jain, an Applied AI Consultant in the SF area. I specialize in enhancing business performance with AI/ML applications.",
+    "Hey! I'm Nehil, an AI hacker who loves building cool stuff with LLMs. I've won 3 AI hackathons back-to-back, helped Fortune 500s deploy AI at scale, and now I'm having a blast building AI products that makes developers' lives better. Ex-McKinsey Principal Engineer, always down to geek out about agents, RAG, and making AI systems reliable.",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
@@ -116,9 +116,42 @@ export const DATA = {
   ],
   projects: [
     {
+      industry: 'DevTools',
+      title: 'ProoferX - AI Documentation Validator',
+      status: 'current',
+      description:
+        'Won Code Interpreter 2.0 Hackathon by building an AI tool that tests code in technical guides to make sure they actually work.',
+      impact:
+        'Found incomplete/incorrect code examples in OpenAI, Vite, and E2B docs. Saves developer time by automatically catching outdated documentation.',
+      role: 'Tech Lead',
+      technologies: ['CrewAI', 'E2B Sandbox', 'Fireworks AI', 'LangChain']
+    },
+    {
+      industry: 'DevTools',
+      title: 'LazyPMs - AI Release Notes Generator',
+      status: 'past',
+      description:
+        'Won LangChain Factory Hackathon by building an agentic system that automates writing and tailoring software release notes for different stakeholders using a multi-agent architecture.',
+      impact:
+        'Created a solution that transforms sparse release notes into rich documentation tailored for different audiences (CEO, developers, downstream teams) through coordinated AI agents.',
+      role: 'Tech Lead',
+      technologies: ['Langgraph', 'LangChain', 'Fireworks AI', 'GitHub API']
+    },
+    {
+      industry: 'Events',
+      title: 'KinConnect - AI Hackathon Team Matcher',
+      status: 'past',
+      description:
+        'Built and won MongoDB GenAI Hackathon by creating an AI-powered tool that matches hackathon participants based on their profiles, skills, and interests.',
+      impact:
+        'Won $2000 in Fireworks AI credits. Created a scalable solution using hybrid search (vector + keyword) for optimal matching, with costs under $1 for development.',
+      role: 'Tech Lead',
+      technologies: ['Fireworks AI', 'MongoDB Atlas', 'FastAPI', 'LangChain']
+    },
+    {
       industry: 'Personal Finance',
       title: 'AI-Driven Personal Budget Assistant',
-      status: 'current',
+      status: 'past',
       description:
         'Currently building an AI-driven application designed to automate the categorization of personal financial transactions. This project involves using state-of-the-art Large Language Models (LLMs) to classify transactions based on descriptions and enriched context from Google search results.',
       impact:
@@ -226,14 +259,19 @@ export const DATA = {
       icon: Icons.logo
     },
     {
-      href: '/about',
-      label: 'About',
+      href: '/projects',
+      label: 'Projects',
+      icon: Icons.code
+    },
+    {
+      href: '/cv',
+      label: 'CV',
       icon: Icons.user
     },
     {
       href: '/writing',
       label: 'Writing',
-      icon: Icons.code
+      icon: Icons.pen
     }
   ]
 };
