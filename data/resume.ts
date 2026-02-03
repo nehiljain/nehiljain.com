@@ -3,13 +3,13 @@ import { Icons } from '@/components/icons';
 export const DATA = {
   name: 'Nehil Jain',
   initials: 'NJ',
-  org: 'Demo Drive',
-  title: 'Applied AI Consultant',
-  currentFocus: 'Building AI-powered products',
+  org: 'Anyscale',
+  title: 'Member of Technical Staff',
+  currentFocus: 'Scaling AI infrastructure for the enterprise',
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
   description:
-    "Hey! I'm Nehil, an AI hacker who loves building cool stuff with LLMs. I've won 3 AI hackathons back-to-back, helped Fortune 500s deploy AI at scale, and now I'm having a blast building AI products that makes developers' lives better. Ex-McKinsey Principal Engineer, always down to geek out about agents, RAG, and making AI systems reliable.",
+    "Hey! I'm Nehil, an AI infrastructure engineer who loves making AI systems work at scale. I help Fortune 500s like PayPal, Notion, and Instacart deploy and optimize their AI infrastructure on Ray. Before this, I founded DemoDrive AI (won 4 hackathons), was a Principal AI Engineer at McKinsey, and co-founded a biotech startup. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
@@ -39,6 +39,7 @@ export const DATA = {
       tools: [
         'Agentic Applications',
         'RAG',
+        'LLM Serving',
         'Finetuning',
         'Forecasting',
         'MLOps'
@@ -49,23 +50,54 @@ export const DATA = {
       tools: [
         'Python',
         'SQL',
+        'Ray',
+        'Spark',
         'Dagster',
         'Airflow',
         'MLFlow',
         'Snowflake',
         'Databricks',
-        'Azure ML',
         'dbt'
+      ]
+    },
+    {
+      type: 'Cloud and Distributed Systems',
+      tools: [
+        'AWS',
+        'Azure',
+        'GCP',
+        'Kubernetes',
+        'Docker',
+        'A100/H100 GPUs'
       ]
     }
   ],
   work: [
     {
+      company: 'Anyscale',
+      title: 'Member of Technical Staff',
+      start: 'Sep 2025',
+      end: 'Present',
+      description:
+        'Technical consulting for Fortune 500 AI infrastructure on Ray. Drive customer demos, POCs, and expansions for accounts like PayPal, Notion, Instacart, and Rivian. Shipped Turbopuffer DataSink connector to Ray OSS (PR #58910). Drove 6x contract renewal at Notion ($40K to $250K).',
+      href: 'https://www.anyscale.com/'
+    },
+    {
+      company: 'DemoDrive AI',
+      title: 'Founder & CEO',
+      start: 'May 2024',
+      end: 'Aug 2025',
+      description:
+        'Built AI-powered video editor for DevTools teams from zero-to-one. Created 120+ automated videos for 5 pilot customers, reducing content creation time by 70%. Won 4 hackathons including MongoDB GenAI ($2K) and Luma AI (solo win).',
+      href: 'https://demodrive.ai'
+    },
+    {
       company: 'QuantumBlack, McKinsey',
       title: 'Principal AI Engineer',
       start: 'Nov 2022',
       end: 'Apr 2024',
-      description: 'Led AI engineering initiatives for enterprise clients',
+      description:
+        'Led AI engineering for Fortune 500 clients. Built LLM RAG system saving ~$5M/year for insurance client, delivered $29M EBITDA impact in CPG supply chain, and managed 9-person team reducing mining carbon footprint by 4%.',
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -73,13 +105,17 @@ export const DATA = {
       title: 'Senior AI Engineer II',
       start: 'Jan 2021',
       end: 'Oct 2022',
+      description:
+        'Built churn prediction models increasing customer win-back by 11% QoQ. Reduced pipeline runtime from 2 hours to 4 minutes (96% improvement) through incremental processing.',
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
       company: 'Super.com',
-      title: 'Engineering Manager - Data',
+      title: 'Tech Lead - Data',
       start: 'Jan 2019',
       end: 'Nov 2020',
+      description:
+        'Led 12-person team building unified data platform processing 5M+ daily events. Pivoted company to profitability in 3 months during COVID. Built smart bidding system improving ROAS by 20%.',
       href: 'https://www.super.com/'
     },
     {
@@ -87,13 +123,17 @@ export const DATA = {
       title: 'Founding Engineer - Data',
       start: 'Jul 2016',
       end: 'Dec 2018',
+      description:
+        'Built scalable event pipeline (5M events/day) and location recognition model (F1: 0.96). Contributed to 22% YoY revenue uplift.',
       href: 'https://www.super.com/'
     },
     {
       company: 'Athletigen',
-      title: 'Founder',
+      title: 'Co-Founder',
       start: 'Apr 2013',
       end: 'Jul 2016',
+      description:
+        'Co-founded biotech startup combining genomics and AI for elite athletes. Scaled to 16,000 reports, built 8-person engineering team, and designed genetic analytics pipeline on Spark and AWS.',
       href: 'https://www.athletigen.com/'
     }
   ],
@@ -108,17 +148,75 @@ export const DATA = {
   ],
   publications: [
     {
-      title: 'World Wide Waste',
-      date: '2023-10',
-      url: 'https://www.learnwithgurpreet.com/posts/world-wide-waste/',
-      description: 'Book review on reducing digital environmental impact'
+      title: 'Building Reusable and Trustworthy ELT Pipelines',
+      date: '2020-07',
+      url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
+      description: 'Talk at Airflow Summit 2020 on building reliable data pipelines'
+    },
+    {
+      title: 'Using Airflow to Orchestrate dbt',
+      date: '2020-05',
+      url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
+      description: 'Presentation at dbt Office Hours on orchestrating dbt with Airflow'
     }
   ],
   projects: [
     {
+      industry: 'AI Infrastructure',
+      title: 'Turbopuffer DataSink Connector for Ray Data',
+      status: 'current',
+      description:
+        'Built and shipped production-grade vector database connector to Ray OSS (PR #58910), enabling streaming writes from Ray Data pipelines to Turbopuffer. Solved complex memory optimization using sort+slice over dictionary accumulation for zero additional allocation.',
+      impact:
+        'Unblocked Notion migration to Anyscale, contributing to 6x contract growth ($40K to $250K). Implemented column-oriented batching for 10x write performance. Fixed PyArrow hash-order bug preventing silent data corruption.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'PyArrow', 'Turbopuffer', 'Python', 'AWS']
+    },
+    {
+      industry: 'Robotics',
+      title: 'Petabyte-Scale Robotics Data Pipeline',
+      status: 'current',
+      description:
+        'Designed Ray Data pipeline for autonomous systems processing 3+ petabytes of sensor data. Direct MCAP-to-tensor pipeline with on-the-fly H265 decoding, eliminating multi-day ETL bottlenecks.',
+      impact:
+        'Enabled heterogeneous compute architecture (CPU data processing, GPU training) at 512-node H100 scale. Reduced S3 traffic and intermediate artifacts by streaming directly from raw sensor data.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'MCAP', 'H265', 'PyTorch', 'H100 GPUs', 'Kubernetes']
+    },
+    {
+      industry: 'DevTools',
+      title: 'DemoDrive - AI Video Editor for DevRel',
+      status: 'past',
+      description:
+        'Built AI-powered video editor from scratch with AI agents as first-class citizens. Created 120+ automated videos for 5 pilot customers.',
+      impact:
+        'Reduced content creation time by 70%. Secured 1 paid pilot (Whiterabbit.ai, Series C) and 2 design partners (E2B.dev, FireworksAI).',
+      role: 'Founder & CEO',
+      technologies: [
+        'Django',
+        'React',
+        'Claude 3.5 Sonnet',
+        'Gemini Flash',
+        'Remotion',
+        'Playwright',
+        'ffmpeg'
+      ]
+    },
+    {
+      industry: 'Real Estate',
+      title: 'AI House Tour Video Generator',
+      status: 'past',
+      description:
+        'Won Luma AI Hackathon as the only solo participant. Built tool that generates cinematic house tour videos from Zillow listings using AI.',
+      impact:
+        'Demonstrated end-to-end AI video generation pipeline producing 100+ videos from real estate data.',
+      role: 'Solo Developer',
+      technologies: ['Luma AI', 'Python', 'Zillow API']
+    },
+    {
       industry: 'DevTools',
       title: 'ProoferX - AI Documentation Validator',
-      status: 'current',
+      status: 'past',
       description:
         'Won Code Interpreter 2.0 Hackathon by building an AI tool that tests code in technical guides to make sure they actually work.',
       impact:
@@ -161,12 +259,12 @@ export const DATA = {
     },
     {
       industry: 'Insurance',
-      title: 'Insurance Support Copilot',
+      title: 'Insurance Claims Processing with LLM RAG',
       status: 'past',
       description:
-        'Led the development of a groundbreaking MVP that leveraged Gen AI to revolutionize the ops and support of a re-insurance provider.',
+        'Led 7-person team building LLM RAG system for life insurance policy processing. Built OCR ingestion pipeline using AWS Textract with LangChain integration.',
       impact:
-        'Realized approximately $50M in savings by optimizing the onboarding and modeling of insurance contracts. Created a sophisticated knowledge graph to enable powerful reasoning with large language models, reducing actuarial work hours by 64%.',
+        'Achieved 82% accuracy, reduced actuarial workflow dependencies by 64%, saving ~$5M annually.',
       role: 'Tech Lead',
       technologies: [
         'AWS',
