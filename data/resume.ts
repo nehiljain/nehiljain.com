@@ -4,7 +4,7 @@ export const DATA = {
   name: 'Nehil Jain',
   initials: 'NJ',
   org: 'Anyscale',
-  title: 'Field Engineer',
+  title: 'Member of Technical Staff',
   currentFocus: 'Scaling AI infrastructure for the enterprise',
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
@@ -75,11 +75,11 @@ export const DATA = {
   work: [
     {
       company: 'Anyscale',
-      title: 'Field Engineer',
+      title: 'Member of Technical Staff',
       start: 'Sep 2025',
       end: 'Present',
       description:
-        'Enterprise AI infrastructure consulting on Ray. Drove 6x contract growth at Notion ($40K to $250K), scoped 100+ model serving POC for PayPal, and shipped Turbopuffer DataSink connector to Ray core (PR #58910).',
+        'Technical consulting for Fortune 500 AI infrastructure on Ray. Drive customer demos, POCs, and expansions for accounts like PayPal, Notion, Instacart, and Rivian. Shipped Turbopuffer DataSink connector to Ray OSS (PR #58910). Drove 6x contract renewal at Notion ($40K to $250K).',
       href: 'https://www.anyscale.com/'
     },
     {
@@ -163,25 +163,25 @@ export const DATA = {
   projects: [
     {
       industry: 'AI Infrastructure',
-      title: 'Notion AI Search Migration',
+      title: 'Turbopuffer DataSink Connector for Ray Data',
       status: 'current',
       description:
-        'Drove OpenAI to Anyscale migration for Notion, expanding AI search from 5% to 100% of workspaces (1-2M). Shipped Turbopuffer DataSink connector to Ray core (PR #58910).',
+        'Built and shipped production-grade vector database connector to Ray OSS (PR #58910), enabling streaming writes from Ray Data pipelines to Turbopuffer. Solved complex memory optimization using sort+slice over dictionary accumulation for zero additional allocation.',
       impact:
-        '6x contract growth ($40K to $250K annual). Solved memory optimization bugs enabling production-scale vector processing of 2M+ vectors.',
-      role: 'Field Engineer',
-      technologies: ['Ray', 'Ray Data', 'Turbopuffer', 'Python', 'AWS']
+        'Unblocked Notion migration to Anyscale, contributing to 6x contract growth ($40K to $250K). Implemented column-oriented batching for 10x write performance. Fixed PyArrow hash-order bug preventing silent data corruption.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'PyArrow', 'Turbopuffer', 'Python', 'AWS']
     },
     {
-      industry: 'AI Infrastructure',
-      title: 'PayPal ML Model Serving Platform',
+      industry: 'Robotics',
+      title: 'Petabyte-Scale Robotics Data Pipeline',
       status: 'current',
       description:
-        'Scoped POC for serving 100+ ML models on Ray Serve, targeting 5x GPU utilization improvement (10% to 50%).',
+        'Designed Ray Data pipeline for autonomous systems processing 3+ petabytes of sensor data. Direct MCAP-to-tensor pipeline with on-the-fly H265 decoding, eliminating multi-day ETL bottlenecks.',
       impact:
-        'Defined success metrics (p95 ≤100-200ms latency, ≤60s scale-up) for enterprise-scale model serving infrastructure.',
-      role: 'Field Engineer',
-      technologies: ['Ray Serve', 'A100/H100 GPUs', 'PyTorch', 'Kubernetes']
+        'Enabled heterogeneous compute architecture (CPU data processing, GPU training) at 512-node H100 scale. Reduced S3 traffic and intermediate artifacts by streaming directly from raw sensor data.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'MCAP', 'H265', 'PyTorch', 'H100 GPUs', 'Kubernetes']
     },
     {
       industry: 'DevTools',
