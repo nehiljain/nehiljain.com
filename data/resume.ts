@@ -139,22 +139,6 @@ export const DATA = {
       location: 'Pilani, Rajasthan, India'
     }
   ],
-  publications: [
-    {
-      title: 'Building Reusable and Trustworthy ELT Pipelines',
-      date: '2020-07',
-      url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
-      description:
-        'Talk at Airflow Summit 2020 on building reliable data pipelines'
-    },
-    {
-      title: 'Using Airflow to Orchestrate dbt',
-      date: '2020-05',
-      url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
-      description:
-        'Presentation at dbt Office Hours on orchestrating dbt with Airflow'
-    }
-  ],
   projects: [
     {
       industry: 'AI Infrastructure',
