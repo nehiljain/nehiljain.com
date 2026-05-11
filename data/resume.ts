@@ -169,21 +169,14 @@ export const DATA = {
     },
     {
       industry: 'Robotics',
-      title: 'Petabyte-Scale Robotics Data Pipeline',
-      status: 'current',
+      title: 'Autonomous Systems Ray Data Pipeline — Reference Pattern',
+      status: 'past',
       description:
-        'Designed Ray Data pipeline for autonomous systems processing 3+ petabytes of sensor data. Direct MCAP-to-tensor pipeline with on-the-fly H265 decoding, eliminating multi-day ETL bottlenecks.',
+        'Prototyped a Ray Data reference pattern for autonomous-systems MCAP-to-tensor workloads, with on-the-fly H265 decoding and streaming reads from raw sensor data.',
       impact:
-        'Enabled heterogeneous compute architecture (CPU data processing, GPU training) at 512-node H100 scale. Reduced S3 traffic and intermediate artifacts by streaming directly from raw sensor data.',
+        'Reference design illustrating heterogeneous CPU-decode / GPU-train compute as an enablement artifact for customer evaluation — not a customer production deployment.',
       role: 'Member of Technical Staff',
-      technologies: [
-        'Ray Data',
-        'MCAP',
-        'H265',
-        'PyTorch',
-        'H100 GPUs',
-        'Kubernetes'
-      ]
+      technologies: ['Ray Data', 'MCAP', 'H265', 'PyTorch']
     },
     {
       industry: 'DevTools',
