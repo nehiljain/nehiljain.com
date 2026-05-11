@@ -142,6 +142,28 @@ export const DATA = {
   projects: [
     {
       industry: 'AI Infrastructure',
+      title: 'Notion Batch Embeddings Optimization',
+      status: 'current',
+      description:
+        'Ran an 80-experiment autoresearch-style sweep across Notion\'s AI search embedding pipeline (millions of pages, 10M+ workspaces), tuning Ray Data + self-hosted embedding throughput.',
+      impact:
+        '3.2x wall-time speedup, 60% GPU cost reduction, and stable 10M-row processing — unlocked the ~250 → ~700 credits/day expansion across all Notion workspaces.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'Sentence Transformers', 'LlamaFactory', 'PyTorch', 'A100 GPUs']
+    },
+    {
+      industry: 'AI Infrastructure',
+      title: 'Sales Context DataHub — Agent at Scale',
+      status: 'current',
+      description:
+        'Built an agent-at-scale system over 7 fragmented internal sources (Gong, Slack, Pylon, Jira, Metronome, Salesforce, Notion) serving 30 Anyscale field engineers — Ray Data batch pipeline, recursive LLM summarization, dbt semantic layer, Claude agent skill, Streamlit app.',
+      impact:
+        'Cut weekly account-review prep from 2h to 20min across 16 tracked accounts (50+ person-hours saved weekly). Caught a book-wide 5–6x consumption-burndown underreporting bug; exec-summary format adopted by leadership for broader CS/AE rollout.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'dbt', 'Claude Skills', 'Streamlit', 'FastAPI', 'PyArrow']
+    },
+    {
+      industry: 'AI Infrastructure',
       title: 'Turbopuffer DataSink Connector for Ray Data',
       status: 'current',
       description:
@@ -150,6 +172,28 @@ export const DATA = {
         'Unblocked Notion migration to Anyscale, contributing to 6x contract growth ($40K to $250K). Implemented column-oriented batching for 10x write performance. Fixed PyArrow hash-order bug preventing silent data corruption.',
       role: 'Member of Technical Staff',
       technologies: ['Ray Data', 'PyArrow', 'Turbopuffer', 'Python', 'AWS']
+    },
+    {
+      industry: 'AI Infrastructure',
+      title: 'Notion Reranker EU Outage Restore',
+      status: 'current',
+      description:
+        'Restored Notion\'s EU reranker outage during a 100%-timeout AWS incident in under 3 hours while traveling. Root-caused a silent torch / CUDA 13.0 / NVIDIA driver mismatch causing CPU fallback.',
+      impact:
+        'Outage cleared from 100% → 0% timeouts in <3 hours MTTR. Shipped a fail-fast torch.cuda.is_available() startup assertion as systemic mitigation across the inference stack.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Serve', 'vLLM', 'PyTorch', 'CUDA', 'AWS']
+    },
+    {
+      industry: 'AI Infrastructure',
+      title: 'HeartFlow Ray Backpressure — Upstream Platform Fix',
+      status: 'current',
+      description:
+        'Unblocked HeartFlow\'s CCTA clinical-imaging training across TBs of data by root-causing a prefetch-vs-consume OOM at 95.7% node memory. Shipped a dynamic-output-queue-size backpressure default upstream.',
+      impact:
+        'Now the Ray 2.51 default (rolling forward to 2.53). Replaced 20+ overnight manual restarts per training cycle with unattended sustained training — freed ML researchers and protected the Q1 renewal.',
+      role: 'Member of Technical Staff',
+      technologies: ['Ray Data', 'PyTorch', 'H100 GPUs', 'Kubernetes']
     },
     {
       industry: 'Robotics',
