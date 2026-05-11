@@ -9,7 +9,7 @@ export const DATA = {
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
   description:
-    "Hey! I'm Nehil, an AI infrastructure engineer who loves making AI systems work at scale. I help Fortune 500s like PayPal, Notion, and Instacart deploy and optimize their AI infrastructure on Ray. Before this, I founded DemoDrive AI (won 4 hackathons), was a Principal AI Engineer at McKinsey, and co-founded a biotech startup. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
+    "Hey! I'm Nehil, an AI infrastructure engineer who loves making AI systems work at scale. As Member of Technical Staff at Anyscale, I drive Ray adoption across 10+ Fortune 500 accounts (Notion, Zscaler, HeartFlow, Instacart, Palo Alto Networks, Aurora Solar, Coactive, Twitch) — owning a multi-seven-figure ACV book and shipping upstream Ray fixes that unblock customer training and serving. Before this, I founded DemoDrive AI (2 wins + 2 podium finishes across 4 SF AI hackathons; featured by Fireworks AI), was a Principal AI Engineer at McKinsey/QuantumBlack, and co-founded a biotech startup. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
