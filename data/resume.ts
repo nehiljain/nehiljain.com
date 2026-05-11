@@ -104,7 +104,7 @@ export const DATA = {
       start: 'May 2024',
       end: 'Aug 2025',
       description:
-        'Built AI-powered video editor for DevTools teams from zero-to-one. Created 120+ automated videos for 5 pilot customers, reducing content creation time by 70%. Won 4 hackathons including MongoDB GenAI ($2K) and Luma AI (solo win).',
+        'Built an agentic video editor for DevRel teams from zero (Playwright automation → AI scripting → Remotion render). Ran 70+ discovery interviews across Okta, Google, Stripe, Shopify, Microsoft; executed 3 product pivots in 8 months. Shipped 120+ automated videos cutting content creation time 70% across 5 pilots; secured 1 paid pilot (Whiterabbit.ai, Series C) and 2 design partners (E2B.dev, Fireworks AI). Placed in 4 SF AI hackathons: 1st at MongoDB GenAI ($2K, KinConnect), solo 1st at Luma AI, 2nd at E2B × Fireworks AI (ProoferX), 3rd at LangChain Agents & Compound AI Systems (LazyPMs) — featured by Fireworks AI as a triple-hackathon placer.',
       href: 'https://demodrive.ai'
     },
     {
@@ -113,7 +113,7 @@ export const DATA = {
       start: 'Nov 2022',
       end: 'Apr 2024',
       description:
-        'Led AI engineering for Fortune 500 clients. Built LLM RAG system saving ~$5M/year for insurance client, delivered $29M EBITDA impact in CPG supply chain, and managed 9-person team reducing mining carbon footprint by 4%.',
+        'Led AI engineering across Fortune 500 clients in insurance, CPG, and mining. Led a 7-person team building a life-insurance claims LLM RAG system (AWS Textract OCR beat GPT-4V, LangChain knowledge-graph, FastAPI) — 82% accuracy, 64% actuarial-dependency reduction, ~$5M/year savings. Built a dbt data-quality framework across 107 CPG supply-chain teams (70% → 98% pass rate, $30M+ EBITDA in a quarter). Managed 9 engineers across a copper-mining forecasting program — 18 production models, 40% faster deployments, 4+ patents.',
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -122,7 +122,7 @@ export const DATA = {
       start: 'Jan 2021',
       end: 'Oct 2022',
       description:
-        'Built churn prediction models increasing customer win-back by 11% QoQ. Reduced pipeline runtime from 2 hours to 4 minutes (96% improvement) through incremental processing.',
+        'Designed a Delta Lake feature store for a major telecom\'s churn-prediction program with automated retraining into CRM workflows — 11% QoQ customer win-back lift. Refactored Spark pipelines on a crushing-optimization workload (incremental processing, vectorized UDFs) cutting runtime from 2h to 4min (96%). Designed the pair-programming interview process across 12 McKinsey global offices.',
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -131,7 +131,7 @@ export const DATA = {
       start: 'Jan 2019',
       end: 'Nov 2020',
       description:
-        'Led 12-person team building unified data platform processing 5M+ daily events. Pivoted company to profitability in 3 months during COVID. Built smart bidding system improving ROAS by 20%.',
+        'Led a 12-person data + analytics team building the unified data platform (Airflow consuming 5M+ events/day into S3, dbt revenue models, Looker/Mode) — contributed to 22% YoY revenue uplift through Series B. Facilitated COVID war-room sessions with dbt unit-economics models, supporting vendor renegotiations for seven-figure savings, 18% OPEX cut, and 3 consecutive profitable months. Built a smart-bidding system (XGBoost on FastAPI/ECS) lifting margin 10% → 13%, cutting CPA 15%, driving 20% ROAS improvement. Rolled out self-serve analytics cutting KPI delivery 10d → 1d.',
       href: 'https://www.super.com/'
     },
     {
@@ -140,7 +140,7 @@ export const DATA = {
       start: 'Jul 2016',
       end: 'Dec 2018',
       description:
-        'Built scalable event pipeline (5M events/day) and location recognition model (F1: 0.96). Contributed to 22% YoY revenue uplift.',
+        'Architected a scalable event pipeline from scratch processing 5M+ events/day at 98% reliability with sub-hourly latency and 20% cost cut via incremental processing. Built a location recognition model on 500K labeled chat events (Random Forest on Spark MLlib) — F1 0.96, 15% personalization lift, 8% reduction in time-to-booking.',
       href: 'https://www.super.com/'
     },
     {
