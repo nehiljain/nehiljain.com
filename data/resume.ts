@@ -261,36 +261,36 @@ export const DATA = {
     },
     {
       industry: 'DevTools',
-      title: 'ProoferX - AI Documentation Validator',
+      title: 'ProoferX — AI Documentation Validator',
       status: 'past',
       description:
-        'Won Code Interpreter 2.0 Hackathon by building an AI tool that tests code in technical guides to make sure they actually work.',
+        'Placed 2nd at the E2B × Fireworks AI Hackathon (2024) by building a multi-agent documentation validator that extracts code from technical guides, defines success criteria, and runs the code in sandboxes to catch broken examples.',
       impact:
-        'Found incomplete/incorrect code examples in OpenAI, Vite, and E2B docs. Saves developer time by automatically catching outdated documentation.',
+        'Generated 18 validation reports and surfaced broken or incomplete code in official OpenAI, Vite, and E2B documentation — caught ~25% of tutorial issues automatically. Featured by Fireworks AI.',
       role: 'Tech Lead',
-      technologies: ['CrewAI', 'E2B Sandbox', 'Fireworks AI', 'LangChain']
+      technologies: ['CrewAI', 'E2B Sandbox', 'Fireworks AI (Llama)', 'Firecrawl', 'LangChain', 'Pydantic']
     },
     {
       industry: 'DevTools',
-      title: 'LazyPMs - AI Release Notes Generator',
+      title: 'LazyPMs — AI Release Notes Generator',
       status: 'past',
       description:
-        'Won LangChain Factory Hackathon by building an agentic system that automates writing and tailoring software release notes for different stakeholders using a multi-agent architecture.',
+        'Placed 3rd at the LangChain-sponsored Agents & Compound AI Systems Hackathon (2024) by building a multi-agent release-notes system. Coordinated Data Engineer, PM, Stakeholder, and Supervisor agents transform sparse GitHub commit data into audience-tailored docs (CEO, developers, downstream teams).',
       impact:
-        'Created a solution that transforms sparse release notes into rich documentation tailored for different audiences (CEO, developers, downstream teams) through coordinated AI agents.',
+        'Demonstrated coordinated agent specialization for documentation workflows — featured by Fireworks AI alongside KinConnect and ProoferX.',
       role: 'Tech Lead',
-      technologies: ['Langgraph', 'LangChain', 'Fireworks AI', 'GitHub API']
+      technologies: ['LangGraph', 'LangChain', 'Fireworks AI (Llama)', 'GitHub API', 'FastAPI', 'Modal Labs', 'Pipedream']
     },
     {
       industry: 'Events',
-      title: 'KinConnect - AI Hackathon Team Matcher',
+      title: 'KinConnect — AI Hackathon Team Matcher',
       status: 'past',
       description:
-        'Built and won MongoDB GenAI Hackathon by creating an AI-powered tool that matches hackathon participants based on their profiles, skills, and interests.',
+        'Won 1st place at MongoDB GenAI Hackathon (2024) by building an AI-powered team matcher using MongoDB Hybrid Search (vector + keyword with Reciprocal Rank Fusion) on participant profiles, skills, and interests.',
       impact:
-        'Won $2000 in Fireworks AI credits. Created a scalable solution using hybrid search (vector + keyword) for optimal matching, with costs under $1 for development.',
+        '$2,000 in Fireworks AI credits awarded; dev cost stayed under $1 for the full prototype. Featured by Fireworks AI as the headline of their triple-hackathon placement article.',
       role: 'Tech Lead',
-      technologies: ['Fireworks AI', 'MongoDB Atlas', 'FastAPI', 'LangChain']
+      technologies: ['Fireworks AI (Llama)', 'MongoDB Atlas Hybrid Search', 'FastAPI', 'LangChain', 'Pydantic']
     },
     {
       industry: 'Personal Finance',
