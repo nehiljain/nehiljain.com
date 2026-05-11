@@ -39,10 +39,11 @@ export const DATA = {
       tools: [
         'Agentic Applications',
         'RAG',
-        'LLM Serving',
-        'Finetuning',
-        'Forecasting',
-        'MLOps'
+        'LLM Serving (vLLM, Ray Serve)',
+        'LLM Fine-tuning (LoRA, RLHF, GRPO)',
+        'Sentence Transformers',
+        'MLOps',
+        'Forecasting'
       ]
     },
     {
@@ -50,19 +51,41 @@ export const DATA = {
       tools: [
         'Python',
         'SQL',
-        'Ray',
-        'Spark',
+        'Ray (Data, Serve, Train)',
+        'Spark / PySpark',
         'Dagster',
         'Airflow',
-        'MLFlow',
+        'MLflow',
         'Snowflake',
         'Databricks',
-        'dbt'
+        'dbt',
+        'PyArrow'
       ]
     },
     {
       type: 'Cloud and Distributed Systems',
-      tools: ['AWS', 'Azure', 'GCP', 'Kubernetes', 'Docker', 'A100/H100 GPUs']
+      tools: [
+        'AWS',
+        'Azure',
+        'GCP',
+        'Kubernetes',
+        'Docker',
+        'A100 / H100 / A10G / L40S GPUs'
+      ]
+    },
+    {
+      type: 'Frameworks and Tools',
+      tools: [
+        'PyTorch',
+        'LangChain',
+        'LangGraph',
+        'LangSmith',
+        'FastAPI',
+        'Streamlit',
+        'Playwright',
+        'XGBoost',
+        'pyGAM'
+      ]
     }
   ],
   work: [
