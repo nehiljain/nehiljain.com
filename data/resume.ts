@@ -72,7 +72,7 @@ export const DATA = {
       start: 'Sep 2025',
       end: 'Present',
       description:
-        'Technical consulting for Fortune 500 AI infrastructure on Ray. Drive customer demos, POCs, and expansions for accounts like PayPal, Notion, Instacart, and Rivian. Shipped Turbopuffer DataSink connector to Ray OSS (PR #58910). Drove 6x contract renewal at Notion ($40K to $250K).',
+        'Field engineer for 10+ Fortune 500 Anyscale accounts on Ray (Notion, Zscaler, HeartFlow, Instacart, Palo Alto Networks, Aurora Solar, Simbe Robotics, Coactive, Twitch). Own a multi-seven-figure ACV book and seven-figure qualified pre-sales pipeline. Drove 6x renewal at Notion by migrating Spark + OpenAI embeddings to Ray Data + self-hosted (10M+ workspaces). Shipped 3 upstream Ray contributions: Turbopuffer DataSink (PR #58910), Ray Serve health-check fix (#61263), and the Ray 2.51 backpressure default. Core team member for Ray on the Roads (delivered SF workshop to 150+ engineers; co-programmed Seattle with Notion). Converted Twitch from prospect to customer via a 4-hour custom workshop; delivered tailored Ray workshops to Zscaler\'s ML platform team.',
       href: 'https://www.anyscale.com/'
     },
     {
