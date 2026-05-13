@@ -62,14 +62,7 @@ export const DATA = {
     },
     {
       type: 'Cloud and Distributed Systems',
-      tools: [
-        'AWS',
-        'Azure',
-        'GCP',
-        'Kubernetes',
-        'Docker',
-        'A100/H100 GPUs'
-      ]
+      tools: ['AWS', 'Azure', 'GCP', 'Kubernetes', 'Docker', 'A100/H100 GPUs']
     }
   ],
   work: [
@@ -151,13 +144,15 @@ export const DATA = {
       title: 'Building Reusable and Trustworthy ELT Pipelines',
       date: '2020-07',
       url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
-      description: 'Talk at Airflow Summit 2020 on building reliable data pipelines'
+      description:
+        'Talk at Airflow Summit 2020 on building reliable data pipelines'
     },
     {
       title: 'Using Airflow to Orchestrate dbt',
       date: '2020-05',
       url: 'https://www.youtube.com/watch?v=4JYD3JjGMCk',
-      description: 'Presentation at dbt Office Hours on orchestrating dbt with Airflow'
+      description:
+        'Presentation at dbt Office Hours on orchestrating dbt with Airflow'
     }
   ],
   projects: [
@@ -181,7 +176,14 @@ export const DATA = {
       impact:
         'Enabled heterogeneous compute architecture (CPU data processing, GPU training) at 512-node H100 scale. Reduced S3 traffic and intermediate artifacts by streaming directly from raw sensor data.',
       role: 'Member of Technical Staff',
-      technologies: ['Ray Data', 'MCAP', 'H265', 'PyTorch', 'H100 GPUs', 'Kubernetes']
+      technologies: [
+        'Ray Data',
+        'MCAP',
+        'H265',
+        'PyTorch',
+        'H100 GPUs',
+        'Kubernetes'
+      ]
     },
     {
       industry: 'DevTools',
