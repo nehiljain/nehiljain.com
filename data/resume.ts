@@ -8,7 +8,7 @@ export const DATA = {
   currentFocus: 'Scaling AI infrastructure for the enterprise',
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
-  description: "An ML platform engineer who loves solving a breadth of problems for customers at Anyscale. I have been partnering with ML team and leaders to scale their AI solutions with Ray. I have been coding for over 10+ years. I love distributed systems and the startup ethos. Also a bit of sketchnoting and pickleball (these keep changing)",
+  description: "An ML platform engineer who loves solving problems for customers at Anyscale. I have been partnering with ML team and leaders to scale their AI solutions with Ray. I have been coding for over 10+ years. I love distributed systems and the startup ethos. Also a bit of sketchnoting and pickleball (these keep changing)",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
