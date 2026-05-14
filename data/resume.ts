@@ -7,9 +7,9 @@ export const DATA = {
   title: 'Member of Technical Staff',
   currentFocus: 'Scaling AI infrastructure for the enterprise',
   location: 'SF Bay Area',
-  email: 'hello@nehiljain.com',
+  email: 'jain. nehil@gmail.com',
   description:
-    "Hey! I'm Nehil, an AI infrastructure engineer who loves making AI systems work at scale. I help Fortune 500s like PayPal, Notion, and Instacart deploy and optimize their AI infrastructure on Ray. Before this, I founded DemoDrive AI (won 4 hackathons), was a Principal AI Engineer at McKinsey, and co-founded a biotech startup. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
+    "I'm Nehil a ML platform engineer who loves making distributed systems work at scale. I am currently working on Ray deployments for customers at Anyscale. I have been coding for 10+ years and have been part of various startups + McKinsey ML implementation teams. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
