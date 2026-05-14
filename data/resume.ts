@@ -211,14 +211,14 @@ export const DATA = {
     },
     {
       industry: 'AI Infrastructure',
-      title: 'Notion Reranker EU Outage Restore',
+      title: 'Notion EU Ray Service Outage Restore',
       status: 'current',
       description:
-        "Restored Notion's EU reranker outage during a 100%-timeout AWS incident in under 3 hours while traveling. Root-caused a silent torch / CUDA 13.0 / NVIDIA driver mismatch causing CPU fallback.",
+        "RCAd a 100%-timeout Ray service outage across Notion's EU production in under 3 hours by discovering a silent Python torch CUDA driver mismatch.",
       impact:
-        'Outage cleared from 100% → 0% timeouts in <3 hours MTTR. Shipped a fail-fast torch.cuda.is_available() startup assertion as systemic mitigation across the inference stack.',
+        'Outage restored in <3 hours; shipped a fail-fast torch.cuda.is_available() startup assertion as systemic mitigation.',
       role: 'Member of Technical Staff',
-      technologies: ['Ray Serve', 'vLLM', 'PyTorch', 'CUDA', 'AWS']
+      technologies: ['Ray Serve', 'Python', 'PyTorch', 'CUDA']
     },
     {
       industry: 'AI Infrastructure',
