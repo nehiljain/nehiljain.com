@@ -94,8 +94,13 @@ export const DATA = {
       title: 'Member of Technical Staff',
       start: 'Sep 2025',
       end: 'Present',
-      description:
-        'Field engineer for 10+ Fortune 500 Anyscale accounts on Ray, including Notion and Palo Alto Networks. Own a multi-seven-figure ACV book and seven-figure qualified pre-sales pipeline. Drove 6x growth at Notion by migrating Spark + OpenAI embeddings to Ray Data + self-hosted pipelines across 10M+ workspaces. Shipped upstream Ray Data and Ray Serve fixes that unblocked customer training and serving workloads. Core team member for Ray on the Roads; delivered SF workshop to 150+ engineers and converted Twitch from prospect to customer via a 4-hour custom workshop.',
+      highlights: [
+        'Field engineer for 10+ Fortune 500 Anyscale accounts on Ray, including Notion and Palo Alto Networks.',
+        'Own a multi-seven-figure ACV book and seven-figure qualified pre-sales pipeline.',
+        'Drove 6x growth at Notion by migrating Spark + OpenAI embeddings to Ray Data + self-hosted pipelines across 10M+ workspaces.',
+        'Shipped upstream Ray Data and Ray Serve fixes that unblocked customer training and serving workloads.',
+        'Core team member for Ray on the Roads; delivered SF workshop to 150+ engineers and converted Twitch from prospect to customer via a 4-hour custom workshop.'
+      ],
       href: 'https://www.anyscale.com/'
     },
     {
@@ -103,8 +108,12 @@ export const DATA = {
       title: 'Founder & CEO',
       start: 'May 2024',
       end: 'Aug 2025',
-      description:
-        'Built an agentic video editor for DevRel teams from zero (Playwright automation → AI scripting → Remotion render). Ran 70+ discovery interviews across Okta, Google, Stripe, Shopify, Microsoft; executed 3 product pivots in 8 months. Shipped 120+ automated videos cutting content creation time 70% across 5 pilots; secured 1 paid pilot and 2 design partners. Placed in 4 SF AI hackathons: 1st at MongoDB GenAI ($2k, KinConnect), solo 1st at Luma AI, 2nd at E2B × Fireworks AI (ProoferX), 3rd at LangChain Agents & Compound AI Systems (LazyPMs) - featured by Fireworks AI as a triple-hackathon placer.',
+      highlights: [
+        'Built an agentic video editor for DevRel teams from zero (Playwright automation → AI scripting → Remotion render).',
+        'Ran 70+ discovery interviews across Okta, Google, Stripe, Shopify, Microsoft; executed 3 product pivots in 8 months.',
+        'Shipped 120+ automated videos cutting content creation time 70% across 5 pilots; secured 1 paid pilot and 2 design partners.',
+        'Placed in 4 SF AI hackathons: 1st at MongoDB GenAI ($2k, KinConnect), solo 1st at Luma AI, 2nd at E2B × Fireworks AI (ProoferX), 3rd at LangChain Agents & Compound AI Systems (LazyPMs) - featured by Fireworks AI as a triple-hackathon placer.'
+      ],
       href: 'https://demodrive.ai'
     },
     {
@@ -112,8 +121,12 @@ export const DATA = {
       title: 'Principal AI Engineer',
       start: 'Nov 2022',
       end: 'Apr 2024',
-      description:
-        'Led AI engineering across Fortune 500 clients in insurance, CPG, and mining. Led a 7-person team building a life-insurance claims LLM RAG system (AWS Textract OCR beat GPT-4V, LangChain knowledge-graph, FastAPI) - 82% accuracy, 64% actuarial-dependency reduction, ~$5M/year savings. Built a dbt data-quality framework across 107 CPG supply-chain teams (70% → 98% pass rate, $30M+ EBITDA in a quarter). Managed 9 engineers across a copper-mining forecasting program - 18 production models, 40% faster deployments, 4+ patents.',
+      highlights: [
+        'Led AI engineering across Fortune 500 clients in insurance, CPG, and mining.',
+        'Led a 7-person team building a life-insurance claims LLM RAG system (AWS Textract OCR beat GPT-4V, LangChain knowledge-graph, FastAPI) - 82% accuracy, 64% actuarial-dependency reduction, ~$5M/year savings.',
+        'Built a dbt data-quality framework across 107 CPG supply-chain teams (70% → 98% pass rate, $30M+ EBITDA in a quarter).',
+        'Managed 9 engineers across a copper-mining forecasting program - 18 production models, 40% faster deployments, 4+ patents.'
+      ],
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -121,8 +134,11 @@ export const DATA = {
       title: 'Senior AI Engineer II',
       start: 'Jan 2021',
       end: 'Oct 2022',
-      description:
-        "Designed a Delta Lake feature store for a major telecom's churn-prediction program with automated retraining into CRM workflows - 11% QoQ customer win-back lift. Refactored Spark pipelines on a crushing-optimization workload (incremental processing, vectorized UDFs) cutting runtime from 2h to 4min (96%). Designed the pair-programming interview process across 12 McKinsey global offices.",
+      highlights: [
+        "Designed a Delta Lake feature store for a major telecom's churn-prediction program with automated retraining into CRM workflows - 11% QoQ customer win-back lift.",
+        'Refactored Spark pipelines on a crushing-optimization workload (incremental processing, vectorized UDFs) cutting runtime from 2h to 4min (96%).',
+        'Designed the pair-programming interview process across 12 McKinsey global offices.'
+      ],
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -130,8 +146,12 @@ export const DATA = {
       title: 'Tech Lead - Data',
       start: 'Jan 2019',
       end: 'Nov 2020',
-      description:
-        'Led a 12-person data + analytics team building the unified data platform (Airflow consuming 5M+ events/day into S3, dbt revenue models, Looker/Mode) - contributed to 22% YoY revenue uplift through Series B. Facilitated COVID war-room sessions with dbt unit-economics models, supporting vendor renegotiations for seven-figure savings, 18% OPEX cut, and 3 consecutive profitable months. Built a smart-bidding system (XGBoost on FastAPI/ECS) lifting margin 10% → 13%, cutting CPA 15%, driving 20% ROAS improvement. Rolled out self-serve analytics cutting KPI delivery 10d → 1d.',
+      highlights: [
+        'Led a 12-person data + analytics team building the unified data platform (Airflow consuming 5M+ events/day into S3, dbt revenue models, Looker/Mode) - contributed to 22% YoY revenue uplift through Series B.',
+        'Facilitated COVID war-room sessions with dbt unit-economics models, supporting vendor renegotiations for seven-figure savings, 18% OPEX cut, and 3 consecutive profitable months.',
+        'Built a smart-bidding system (XGBoost on FastAPI/ECS) lifting margin 10% → 13%, cutting CPA 15%, driving 20% ROAS improvement.',
+        'Rolled out self-serve analytics cutting KPI delivery 10d → 1d.'
+      ],
       href: 'https://www.super.com/'
     },
     {
@@ -139,8 +159,10 @@ export const DATA = {
       title: 'Founding Engineer - Data',
       start: 'Jul 2016',
       end: 'Dec 2018',
-      description:
-        'Architected a scalable event pipeline from scratch processing 5M+ events/day at 98% reliability with sub-hourly latency and 20% cost cut via incremental processing. Built a location recognition model on 500K labeled chat events (Random Forest on Spark MLlib) - F1 0.96, 15% personalization lift, 8% reduction in time-to-booking.',
+      highlights: [
+        'Architected a scalable event pipeline from scratch processing 5M+ events/day at 98% reliability with sub-hourly latency and 20% cost cut via incremental processing.',
+        'Built a location recognition model on 500K labeled chat events (Random Forest on Spark MLlib) - F1 0.96, 15% personalization lift, 8% reduction in time-to-booking.'
+      ],
       href: 'https://www.super.com/'
     },
     {
@@ -148,8 +170,10 @@ export const DATA = {
       title: 'Co-Founder',
       start: 'Apr 2013',
       end: 'Jul 2016',
-      description:
-        'Co-founded biotech startup combining genomics and AI for elite athletes. Scaled to 16,000 reports, built 8-person engineering team, and designed genetic analytics pipeline on Spark and AWS.',
+      highlights: [
+        'Co-founded biotech startup combining genomics and AI for elite athletes.',
+        'Scaled to 16,000 reports, built 8-person engineering team, and designed genetic analytics pipeline on Spark and AWS.'
+      ],
       href: 'https://www.athletigen.com/'
     }
   ],
@@ -165,6 +189,7 @@ export const DATA = {
   projects: [
     {
       industry: 'AI Infrastructure',
+      tag: 'Autoresearch',
       title: 'Notion Batch Embeddings Optimization',
       status: 'current',
       description:
@@ -182,6 +207,7 @@ export const DATA = {
     },
     {
       industry: 'AI Infrastructure',
+      tag: 'Claude Skills',
       title: 'Sales Context DataHub - Agent at Scale',
       status: 'current',
       description:
@@ -233,6 +259,7 @@ export const DATA = {
     },
     {
       industry: 'Robotics',
+      tag: 'Prototype',
       title: 'Autonomous Systems Ray Data Pipeline - Reference Pattern',
       status: 'past',
       description:
@@ -263,6 +290,7 @@ export const DATA = {
     },
     {
       industry: 'Real Estate',
+      tag: 'Applied AI',
       title: 'AI House Tour Video Generator',
       status: 'past',
       description:
@@ -311,6 +339,7 @@ export const DATA = {
     },
     {
       industry: 'Events',
+      tag: 'Applied AI',
       title: 'KinConnect - AI Hackathon Team Matcher',
       status: 'past',
       description:
@@ -328,6 +357,7 @@ export const DATA = {
     },
     {
       industry: 'Personal Finance',
+      tag: 'Applied AI',
       title: 'AI-Driven Personal Budget Assistant',
       status: 'past',
       description:
@@ -339,6 +369,7 @@ export const DATA = {
     },
     {
       industry: 'Insurance',
+      tag: 'Applied AI',
       title: 'Insurance Claims Processing with LLM RAG',
       status: 'past',
       description:
@@ -357,6 +388,7 @@ export const DATA = {
     },
     {
       industry: 'Telecommunications',
+      tag: 'MLOps',
       title: 'Telecom Customer Retention Enhancement',
       status: 'past',
       description:
@@ -368,6 +400,7 @@ export const DATA = {
     },
     {
       industry: 'Mining',
+      tag: 'ML Platform',
       title: 'Mining Operations Optimization',
       status: 'past',
       description:
@@ -386,6 +419,7 @@ export const DATA = {
     },
     {
       industry: 'Consumer Packaged Goods',
+      tag: 'ML Platform',
       title: 'CPG Supply Chain Optimization',
       status: 'past',
       description:
@@ -397,6 +431,7 @@ export const DATA = {
     },
     {
       industry: 'Travel and Hospitality',
+      tag: 'Data Platform',
       title: 'Data-Driven Transformation at SnapTravel',
       status: 'past',
       description:
@@ -415,6 +450,7 @@ export const DATA = {
     },
     {
       industry: 'Health and Fitness',
+      tag: 'ML Platform',
       title: 'Athletigen Data Intelligence Platform',
       status: 'past',
       description:
