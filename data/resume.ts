@@ -8,8 +8,7 @@ export const DATA = {
   currentFocus: 'Scaling AI infrastructure for the enterprise',
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
-  description:
-    "Hey! I'm Nehil, an AI infrastructure engineer and Member of Technical Staff at Anyscale, where I drive Ray adoption for enterprise teams including Notion and Palo Alto Networks. I own a multi-seven-figure ACV book, ship upstream Ray fixes, and previously founded DemoDrive AI after leading AI engineering at McKinsey/QuantumBlack.",
+  description: "An ML platform engineer who loves solving a breadth of problems for customers at Anyscale. I have been partnering with ML team and leaders to scale their AI solutions with Ray. I have been coding for over 10+ years. I love distributed systems and the startup ethos. Also a bit of sketchnoting and pickleball (these keep changing)",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
