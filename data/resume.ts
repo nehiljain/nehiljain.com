@@ -9,7 +9,7 @@ export const DATA = {
   location: 'SF Bay Area',
   email: 'hello@nehiljain.com',
   description:
-    "Hey! I'm Nehil, an AI infrastructure engineer who loves making AI systems work at scale. As Member of Technical Staff at Anyscale, I drive Ray adoption across 10+ Fortune 500 accounts (Notion, Zscaler, HeartFlow, Instacart, Palo Alto Networks, Aurora Solar, Coactive, Twitch) - owning a multi-seven-figure ACV book and shipping upstream Ray fixes that unblock customer training and serving. Before this, I founded DemoDrive AI (2 wins + 2 podium finishes across 4 SF AI hackathons; featured by Fireworks AI), was a Principal AI Engineer at McKinsey/QuantumBlack, and co-founded a biotech startup. Always down to geek out about distributed systems, LLMs, and making AI reliable in production.",
+    "Hey! I'm Nehil, an AI infrastructure engineer and Member of Technical Staff at Anyscale, where I drive Ray adoption for enterprise teams including Notion and Palo Alto Networks. I own a multi-seven-figure ACV book, ship upstream Ray fixes, and previously founded DemoDrive AI after leading AI engineering at McKinsey/QuantumBlack.",
   avatarUrl: '/nehil_profile_pic.jpg',
   contact: {
     social: {
@@ -95,7 +95,7 @@ export const DATA = {
       start: 'Sep 2025',
       end: 'Present',
       description:
-        'Field engineer for 10+ Fortune 500 Anyscale accounts on Ray (Notion, Zscaler, HeartFlow, Instacart, Palo Alto Networks, Aurora Solar, Simbe Robotics, Coactive, Twitch). Own a multi-seven-figure ACV book and seven-figure qualified pre-sales pipeline. Drove 6x renewal at Notion by migrating Spark + OpenAI embeddings to Ray Data + self-hosted (10M+ workspaces). Shipped 3 upstream Ray contributions: Turbopuffer DataSink (PR #58910), Ray Serve health-check fix (#61263), and the Ray 2.51 backpressure default. Core team member for Ray on the Roads (delivered SF workshop to 150+ engineers; co-programmed Seattle with Notion). Converted Twitch from prospect to customer via a 4-hour custom workshop; delivered tailored Ray workshops to Zscaler\'s ML platform team.',
+        'Field engineer for 10+ Fortune 500 Anyscale accounts on Ray, including Notion and Palo Alto Networks. Own a multi-seven-figure ACV book and seven-figure qualified pre-sales pipeline. Drove 6x growth at Notion by migrating Spark + OpenAI embeddings to Ray Data + self-hosted pipelines across 10M+ workspaces. Shipped upstream Ray Data and Ray Serve fixes that unblocked customer training and serving workloads. Core team member for Ray on the Roads; delivered SF workshop to 150+ engineers and converted Twitch from prospect to customer via a 4-hour custom workshop.',
       href: 'https://www.anyscale.com/'
     },
     {
@@ -104,7 +104,7 @@ export const DATA = {
       start: 'May 2024',
       end: 'Aug 2025',
       description:
-        'Built an agentic video editor for DevRel teams from zero (Playwright automation → AI scripting → Remotion render). Ran 70+ discovery interviews across Okta, Google, Stripe, Shopify, Microsoft; executed 3 product pivots in 8 months. Shipped 120+ automated videos cutting content creation time 70% across 5 pilots; secured 1 paid pilot (Whiterabbit.ai, Series C) and 2 design partners (E2B.dev, Fireworks AI). Placed in 4 SF AI hackathons: 1st at MongoDB GenAI ($2K, KinConnect), solo 1st at Luma AI, 2nd at E2B × Fireworks AI (ProoferX), 3rd at LangChain Agents & Compound AI Systems (LazyPMs) - featured by Fireworks AI as a triple-hackathon placer.',
+        'Built an agentic video editor for DevRel teams from zero (Playwright automation → AI scripting → Remotion render). Ran 70+ discovery interviews across Okta, Google, Stripe, Shopify, Microsoft; executed 3 product pivots in 8 months. Shipped 120+ automated videos cutting content creation time 70% across 5 pilots; secured 1 paid pilot and 2 design partners. Placed in 4 SF AI hackathons: 1st at MongoDB GenAI ($2k, KinConnect), solo 1st at Luma AI, 2nd at E2B × Fireworks AI (ProoferX), 3rd at LangChain Agents & Compound AI Systems (LazyPMs) - featured by Fireworks AI as a triple-hackathon placer.',
       href: 'https://demodrive.ai'
     },
     {
@@ -122,7 +122,7 @@ export const DATA = {
       start: 'Jan 2021',
       end: 'Oct 2022',
       description:
-        'Designed a Delta Lake feature store for a major telecom\'s churn-prediction program with automated retraining into CRM workflows - 11% QoQ customer win-back lift. Refactored Spark pipelines on a crushing-optimization workload (incremental processing, vectorized UDFs) cutting runtime from 2h to 4min (96%). Designed the pair-programming interview process across 12 McKinsey global offices.',
+        "Designed a Delta Lake feature store for a major telecom's churn-prediction program with automated retraining into CRM workflows - 11% QoQ customer win-back lift. Refactored Spark pipelines on a crushing-optimization workload (incremental processing, vectorized UDFs) cutting runtime from 2h to 4min (96%). Designed the pair-programming interview process across 12 McKinsey global offices.",
       href: 'https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/'
     },
     {
@@ -168,11 +168,17 @@ export const DATA = {
       title: 'Notion Batch Embeddings Optimization',
       status: 'current',
       description:
-        'Ran an 80-experiment autoresearch-style sweep across Notion\'s AI search embedding pipeline (millions of pages, 10M+ workspaces), tuning Ray Data + self-hosted embedding throughput.',
+        "Ran an 80-experiment autoresearch-style sweep across Notion's AI search embedding pipeline (millions of pages, 10M+ workspaces), tuning Ray Data + self-hosted embedding throughput.",
       impact:
         '3.2x wall-time speedup, 60% GPU cost reduction, and stable 10M-row processing - unlocked the ~250 → ~700 credits/day expansion across all Notion workspaces.',
       role: 'Member of Technical Staff',
-      technologies: ['Ray Data', 'Sentence Transformers', 'LlamaFactory', 'PyTorch', 'A100 GPUs']
+      technologies: [
+        'Ray Data',
+        'Sentence Transformers',
+        'LlamaFactory',
+        'PyTorch',
+        'A100 GPUs'
+      ]
     },
     {
       industry: 'AI Infrastructure',
@@ -183,25 +189,32 @@ export const DATA = {
       impact:
         'Cut weekly account-review prep from 2h to 20min across 16 tracked accounts (50+ person-hours saved weekly). Caught a book-wide 5–6x consumption-burndown underreporting bug; exec-summary format adopted by leadership for broader CS/AE rollout.',
       role: 'Member of Technical Staff',
-      technologies: ['Ray Data', 'dbt', 'Claude Skills', 'Streamlit', 'FastAPI', 'PyArrow']
+      technologies: [
+        'Ray Data',
+        'dbt',
+        'Claude Skills',
+        'Streamlit',
+        'FastAPI',
+        'PyArrow'
+      ]
     },
     {
       industry: 'AI Infrastructure',
-      title: 'Turbopuffer DataSink Connector for Ray Data',
+      title: 'Ray Data OSS Vector Sink Connector',
       status: 'current',
       description:
-        'Built and shipped production-grade vector database connector to Ray OSS (PR #58910), enabling streaming writes from Ray Data pipelines to Turbopuffer. Solved complex memory optimization using sort+slice over dictionary accumulation for zero additional allocation.',
+        'Shipped a production-grade vector-DB connector to Ray OSS with column-oriented batching, memory-safe sort+slice implementation, and a PyArrow hash-order bugfix.',
       impact:
-        'Unblocked Notion migration to Anyscale, contributing to 6x contract growth ($40K to $250K). Implemented column-oriented batching for 10x write performance. Fixed PyArrow hash-order bug preventing silent data corruption.',
+        "Delivered faster write throughput and prevented silent data corruption, demonstrating Ray Data engineering work now part of open source and unblocking Notion's pipeline migration.",
       role: 'Member of Technical Staff',
-      technologies: ['Ray Data', 'PyArrow', 'Turbopuffer', 'Python', 'AWS']
+      technologies: ['Ray Data', 'PyArrow', 'Python', 'AWS']
     },
     {
       industry: 'AI Infrastructure',
       title: 'Notion Reranker EU Outage Restore',
       status: 'current',
       description:
-        'Restored Notion\'s EU reranker outage during a 100%-timeout AWS incident in under 3 hours while traveling. Root-caused a silent torch / CUDA 13.0 / NVIDIA driver mismatch causing CPU fallback.',
+        "Restored Notion's EU reranker outage during a 100%-timeout AWS incident in under 3 hours while traveling. Root-caused a silent torch / CUDA 13.0 / NVIDIA driver mismatch causing CPU fallback.",
       impact:
         'Outage cleared from 100% → 0% timeouts in <3 hours MTTR. Shipped a fail-fast torch.cuda.is_available() startup assertion as systemic mitigation across the inference stack.',
       role: 'Member of Technical Staff',
@@ -212,9 +225,9 @@ export const DATA = {
       title: 'HeartFlow Ray Backpressure - Upstream Platform Fix',
       status: 'current',
       description:
-        'Unblocked HeartFlow\'s CCTA clinical-imaging training across TBs of data by root-causing a prefetch-vs-consume OOM at 95.7% node memory. Shipped a dynamic-output-queue-size backpressure default upstream.',
+        "Unblocked HeartFlow's CCTA clinical-imaging training across TBs of data by root-causing a prefetch-vs-consume OOM at 95.7% node memory. Shipped a dynamic-output-queue-size backpressure default upstream.",
       impact:
-        'Now the Ray 2.51 default (rolling forward to 2.53). Replaced 20+ overnight manual restarts per training cycle with unattended sustained training - freed ML researchers and protected the Q1 renewal.',
+        'Replaced 20+ overnight manual restarts per training cycle with unattended sustained training - freed ML researchers and protected the Q1 renewal.',
       role: 'Member of Technical Staff',
       technologies: ['Ray Data', 'PyTorch', 'H100 GPUs', 'Kubernetes']
     },
@@ -236,7 +249,7 @@ export const DATA = {
       description:
         'Built AI-powered video editor from scratch with AI agents as first-class citizens. Created 120+ automated videos for 5 pilot customers.',
       impact:
-        'Reduced content creation time by 70%. Secured 1 paid pilot (Whiterabbit.ai, Series C) and 2 design partners (E2B.dev, FireworksAI).',
+        'Reduced content creation time by 70%. Secured 1 paid pilot and 2 design partners.',
       role: 'Founder & CEO',
       technologies: [
         'Django',
@@ -268,18 +281,33 @@ export const DATA = {
       impact:
         'Generated 18 validation reports and surfaced broken or incomplete code in official OpenAI, Vite, and E2B documentation - caught ~25% of tutorial issues automatically. Featured by Fireworks AI.',
       role: 'Tech Lead',
-      technologies: ['CrewAI', 'E2B Sandbox', 'Fireworks AI (Llama)', 'Firecrawl', 'LangChain', 'Pydantic']
+      technologies: [
+        'LangGraph',
+        'E2B Sandbox',
+        'Fireworks AI (Llama)',
+        'Firecrawl',
+        'LangChain',
+        'Pydantic'
+      ]
     },
     {
       industry: 'DevTools',
       title: 'LazyPMs - AI Release Notes Generator',
       status: 'past',
       description:
-        'Placed 3rd at the LangChain-sponsored Agents & Compound AI Systems Hackathon (2024) by building a multi-agent release-notes system. Coordinated Data Engineer, PM, Stakeholder, and Supervisor agents transform sparse GitHub commit data into audience-tailored docs (CEO, developers, downstream teams).',
+        'Placed 3rd at the LangChain-sponsored Agents & Compound AI Systems Hackathon (2024) by building a multi-agent release-notes system.',
       impact:
-        'Demonstrated coordinated agent specialization for documentation workflows - featured by Fireworks AI alongside KinConnect and ProoferX.',
+        'Created a tool that transforms sparse release notes into rich documentation tailored for different audiences (CEO, developers, downstream teams) through coordinated AI agents.',
       role: 'Tech Lead',
-      technologies: ['LangGraph', 'LangChain', 'Fireworks AI (Llama)', 'GitHub API', 'FastAPI', 'Modal Labs', 'Pipedream']
+      technologies: [
+        'LangGraph',
+        'LangChain',
+        'Fireworks AI (Llama)',
+        'GitHub API',
+        'FastAPI',
+        'Modal Labs',
+        'Pipedream'
+      ]
     },
     {
       industry: 'Events',
@@ -288,9 +316,15 @@ export const DATA = {
       description:
         'Won 1st place at MongoDB GenAI Hackathon (2024) by building an AI-powered team matcher using MongoDB Hybrid Search (vector + keyword with Reciprocal Rank Fusion) on participant profiles, skills, and interests.',
       impact:
-        '$2,000 in Fireworks AI credits awarded; dev cost stayed under $1 for the full prototype. Featured by Fireworks AI as the headline of their triple-hackathon placement article.',
+        '$2k in Fireworks AI credits awarded; dev cost stayed under $1 for the full prototype. Featured by Fireworks AI as the headline of their triple-hackathon placement article.',
       role: 'Tech Lead',
-      technologies: ['Fireworks AI (Llama)', 'MongoDB Atlas Hybrid Search', 'FastAPI', 'LangChain', 'Pydantic']
+      technologies: [
+        'Fireworks AI (Llama)',
+        'MongoDB Atlas Hybrid Search',
+        'FastAPI',
+        'LangChain',
+        'Pydantic'
+      ]
     },
     {
       industry: 'Personal Finance',
